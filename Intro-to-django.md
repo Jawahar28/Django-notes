@@ -79,3 +79,18 @@
             c. Create a __init__.py file to import the views and make it a module.
             d. Then import the views in the init file.
 
+    3. If we want to see the headers(what type exists in the given functions), then we simply print(request.headers) so that we can know what is printing in HTML format in a plain text.
+
+    4. All the view functions/ methods should be imported.
+
+# URLS:
+* We can't change the URLpatterns in urls.py because the django can't read if we give any name to it.
+
+* In the settings.py , we can see root_urlconfig shows where all the urls present for the project. We can rename it to some other name also but the ".py" name should also be same.
+
+
+# CREATING APPLICATION:
+
+* We can create/start an app using command : python mange.py startapp "name".
+
+* After creating application, we need to add app name to the installed apps in the settings.py
