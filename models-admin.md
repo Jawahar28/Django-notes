@@ -29,6 +29,8 @@
 
         //
 
+
+
 * If we don't mention id the model class it doesn't effect the outcome since in the settings.py we have primary key set to default.
 
 * We can change the database engine and name, in the settings.py
@@ -55,10 +57,30 @@
 # DJANGO - ADMIN : It populates the info of the user.
 
 * 1. To add our own data,first we need to migrate our tables.
-* 2. In our admin.py, first import our models from foldername.models import model_name
+
+* 2. In our admin.py, first import our models from foldername.models import model_name.
+
 * 3. Then register the model with admin.site.register(model_name).
+
 * 4. We can add data in the Admin Panel, which reflects in the database automatically.
 
+* 5. It usually behaves as CRUD(CREATE, READ, UPDATE, DELETE).
+
+* 6. We can also provide entites like feilds = ["entitites"] and by providing @admin.register(model) instead of site.register.
+
+* 7. We can also provide what to display like list_display = ["Entities to display instead of displaying all fields"], search_fields = ['Entitites used to search']
+
+* 8. Fieldsets : It sets the fields like, product info as one block, stock info as another block and we can use classes : collapse to collapse or show.
+
+* 9. We can use choices options to make choices for the entities.
+
+* 10. We can use Foriegn Key to make connections between the models.
+
+# HEADLESS CMS :
+
+* CMS : Content Management System.
+
+* It provides API's to the backend, so that the project will work without FrontEnd Part.
 
 
 
