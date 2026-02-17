@@ -58,3 +58,7 @@
 * 2. In our admin.py, first import our models from foldername.models import model_name
 * 3. Then register the model with admin.site.register(model_name).
 * 4. We can add data in the Admin Panel, which reflects in the database automatically.
+
+
+
+
