@@ -7,6 +7,8 @@
 * Web API: Exposed functions over web.
            We use HTTP protocol for web requests.
 
+* HEADERS : GET AND POST.
+
 
 * Component of GET request : address / queries
 
